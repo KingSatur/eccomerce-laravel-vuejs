@@ -6,10 +6,12 @@
     "service": "laravel.test",
     "workspaceFolder": "/var/www/html",
     "settings": {
-        "php.format.codeStyle": "PSR-2"
+        "php.format.codeStyle": "PSR-2",
+        "javascript.format.enable": true,
     },
     "extensions": [
-        "DEVSENSE.phptools-vscode"
+        "DEVSENSE.phptools-vscode",
+        "vue.volar"
         // "mikestead.dotenv",
         // "amiralizadeh9480.laravel-extra-intellisense",
         // "ryannaddy.laravel-artisan",
